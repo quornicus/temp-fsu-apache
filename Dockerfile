@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8:latest
+FROM adoptopenjdk/openjdk8@sha256:5de53d93c8d7a75859ffe9b177dcc7a88ce1a506f77516a35e988dbd2dd92fa6
 
 ENV INITRD=no \
     ISLANDORA_UID=${ISLANDORA_UID:-1000} \
